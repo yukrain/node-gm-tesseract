@@ -1,0 +1,25 @@
+{
+  "name": "node-gm-tesseract",
+  "version": "1.0.0",
+  "description": "node调用命令行使用GraphicsMagick和Tesseract识别",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+     "tif": "node app.js --tif"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yukrain/node-gm-tesseract.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yukrain/node-gm-tesseract/issues"
+  },
+  "homepage": "https://github.com/yukrain/node-gm-tesseract#readme",
+  "dependencies": {
+    "gm": "^1.23.0",
+    "node-tesseract": "^0.2.7",
+    "shelljs": "^0.7.5"
+  }
+}
