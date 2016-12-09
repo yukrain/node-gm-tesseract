@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
-     "tif": "node app.js --tif"
+    "tif": "node app.js --tif"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,12 @@
   },
   "homepage": "https://github.com/yukrain/node-gm-tesseract#readme",
   "dependencies": {
+    "co": "^4.6.0",
+    "colors": "^1.1.2",
     "gm": "^1.23.0",
+    "moment": "^2.17.0",
     "node-tesseract": "^0.2.7",
-    "shelljs": "^0.7.5"
+    "shelljs": "^0.7.5",
+    "urllib": "^2.17.1"
   }
 }
